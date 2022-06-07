@@ -172,7 +172,7 @@ hr{
 .div1_elements{
 	width: 600px;
 	height: 400px;
-	margin: 20px 20px;
+	margin: 20px 0px;
 	display: inline-block;
 	text-align: center;
 	overflow: hidden;
