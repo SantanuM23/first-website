@@ -94,29 +94,6 @@ body{
 	box-sizing: border-box;
 }
 
-@media(max-width: 471px){
-	/*------header---------*/
-		#header_div{
-		    height: 8rem;
-		    width: 33rem;
-		    padding: 0rem 2rem 0rem 0rem;
-		}
-		#header_ul{
-				font-size: 18px;
-		}
-		.div1_outerbox{
-			width: 100%;
-			height: 60vh;
-			margin: 30px auto;
-		}
-
-		.div1_elements{
-			width: 350px;
-			height: 300px;
-		}
-	}
-
-
 li.header_li:hover{
 		color: #00BFFF;
 }
@@ -680,3 +657,29 @@ span{
   background:;
 }
 
+
+
+/* -----------------------------------------------------------Responsiveness--------------------------------------------------- */
+
+
+
+@media(max-width: 471px){
+		#header_div{
+		    height: 8rem;
+		    width: 33rem;
+		    padding: 0rem 2rem 0rem 0rem;
+		}
+		#header_ul{
+				font-size: 18px;
+		}
+		.div1_outerbox{
+			width: 100%;
+			height: 60vh;
+			margin: 30px auto;
+		}
+
+		.div1_elements{
+			width: 350px;
+			height: 300px;
+		}
+}
